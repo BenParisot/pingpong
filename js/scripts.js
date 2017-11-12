@@ -1,7 +1,7 @@
 //backend logic
 
 
-//fronted logic
+//frontend logic
 $(document).ready(function() {
 	$("#input").submit(function(event) {
 		event.preventDefault();
@@ -9,25 +9,22 @@ $(document).ready(function() {
 		if (isNaN(numInput)) {
 			alert("OKay, wiseguy. Try again - and enter a real number this time.");
 		}
-		var numList = [];
 		for (var i =1; i <= numInput; i += 1) {
-
 			if (i % 15 === 0) {
 				var node = document.createElement("LI");
-				var textNode = document.createTextNode("pingpong");
+				var textNode = document.createTextNode("chomp chomp chomp");
 				node.appendChild(textNode);
 				document.getElementById("list").appendChild(node);
-
 				}
 			else if (i % 5 === 0) {
 				var node = document.createElement("LI");
-				var textNode = document.createTextNode("pong");
+				var textNode = document.createTextNode("nosh");
 				node.appendChild(textNode);
 				document.getElementById("list").appendChild(node);
 			}
 			else if (i % 3 === 0) {
 				var node = document.createElement("LI");
-				var textNode = document.createTextNode("ping");
+				var textNode = document.createTextNode("nom");
 				node.appendChild(textNode);
 				document.getElementById("list").appendChild(node);
 			}
@@ -38,23 +35,8 @@ $(document).ready(function() {
 				document.getElementById("list").appendChild(node);
 			}
 		}
+		var form = document.getElementById("input");
+		form.reset();
 	});
+
 });
-
-
-
-
-
-
-
-
-
-
-
-		//$("#list-main").text(numList);
-		//var finalList = numList.join(" ");
-
-// 		console.log(numList);
-// 	};
-//
-// });
