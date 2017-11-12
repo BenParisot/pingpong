@@ -5,6 +5,7 @@
 $(document).ready(function() {
 	$("#input").submit(function(event) {
 		event.preventDefault();
+		$("#list").html("");
 		var numInput = parseInt($("#number").val());
 		if (isNaN(numInput)) {
 			alert("OKay, wiseguy. Try again - and enter a real number this time.");
@@ -35,8 +36,5 @@ $(document).ready(function() {
 				document.getElementById("list").appendChild(node);
 			}
 		}
-		var form = document.getElementById("input");
-		form.reset();
 	});
-
 });
