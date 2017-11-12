@@ -1,0 +1,65 @@
+.jumbotron {
+	background-color: red;
+	background-image: url("../img/cthulu.jpg");
+	color: white;
+	text-align: center;
+	padding: 150px 0px;
+}
+
+.jumbotron h1 {
+		margin: 0px;
+		font-family: 'Teko', sans-serif;
+		font-size: 120px;
+		text-transform: uppercase;
+}
+
+.number-input {
+	margin: 10px 25px 25px 25px;
+}
+
+.button {
+	margin: 15px 0px 25px 0px;
+	padding: 5px 8px;
+	background-color: red;
+	border-color: green;
+	color: white;
+
+
+}
+
+#enter {
+	margin-top: 50px;
+}
+
+#list {
+
+}
+
+#about {
+	text-align: center;
+	margin: 0px 150px;
+	padding: 15px 20px;
+	background-color: blue;
+	border-radius: 15px;
+	color: white;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Teko', sans-serif;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+h3 {
+	font-family: 'Teko', sans-serif;
+	text-transform: uppercase;
+}
+
+ol {
+	text-align: left;
+}
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
