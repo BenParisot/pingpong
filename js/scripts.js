@@ -9,10 +9,22 @@ $(document).ready(function() {
 		var numInput = parseInt($("#number").val());
 		var numList = [];
 		for (var index = 1; index <= numInput; index += 1) {
-			alert(index);
-			numList.push(index);
+			if (index % 15 === 0) {
+				numList.push("pingpong");
+			}
+			else if (index % 5 === 0) {
+				numList.push("pong");
+			}
+			else if (index % 3 === 0) {
+			 numList.push("ping");
+			}
+			else {
+				numList.push(index);
+			}
+
 		};
-		alert(numList);
+		var finalList = numList.join(" ");
+		console.log(finalList);
 	});
 
 });
