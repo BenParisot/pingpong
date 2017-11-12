@@ -1,7 +1,7 @@
 .jumbotron {
 	background-color: red;
 	background-image: url("../img/cthulu.jpg");
-	color: white;
+	color: #FFFFDE;
 	text-align: center;
 	padding: 150px 0px;
 }
@@ -20,11 +20,15 @@
 .button {
 	margin: 15px 0px 25px 0px;
 	padding: 5px 8px;
-	background-color: red;
-	border-color: green;
-	color: white;
+	background-color: #FFFFDE;
+	border-color: #DED786;
+	color: #352B21;
+}
 
-
+button:hover {
+	background-color: #352B21;
+	border-color: #DED786;
+	color: #FFFFDE;
 }
 
 #enter {
@@ -37,14 +41,13 @@
 
 #about {
 	text-align: center;
-	margin: 0px 150px;
-	padding: 15px 20px;
-	background-color: blue;
-	border-radius: 15px;
+	padding: 15px 250px;
+	background-color: #352B21;
 	color: white;
 }
 
 h2 {
+	color: #FEC15F;
 	text-align: center;
 	font-family: 'Teko', sans-serif;
 	text-transform: uppercase;
@@ -54,6 +57,7 @@ h2 {
 h3 {
 	font-family: 'Teko', sans-serif;
 	text-transform: uppercase;
+	color: #FEC15F;
 }
 
 ol {
